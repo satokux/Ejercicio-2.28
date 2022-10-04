@@ -19,7 +19,7 @@ public class App {
 
         vista.mostrarOperaciones(diametro, circunferencia, area); //Llamamos a la clase "Vista" y le damos los parametros que pide
         
-        System.out.println("Ejercicio 2.28 - Version 1.2.0 - Sergio Tarquino");
+        System.out.println("Ejercicio 2.28 - Sergio Tarquino (ver 1.2.1)");
 
     }
 }
