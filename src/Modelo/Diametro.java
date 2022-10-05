@@ -1,3 +1,4 @@
+package Modelo;
 public class Diametro {
     private Numero_int r; //Se define el atributo r
 

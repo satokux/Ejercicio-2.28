@@ -1,5 +1,5 @@
+package Vista;
 import java.text.DecimalFormat;
-
 public class Vista {
 
 DecimalFormat formato = new DecimalFormat("#.##"); //Se crea la variable "formato" tipo DecimalFormat
@@ -15,9 +15,7 @@ DecimalFormat formato = new DecimalFormat("#.##"); //Se crea la variable "format
     }
 
     public void mostrarVersion(){
-        System.out.println("Ejercicio 2.28(ver 1.3.2) - Sergio Tarquino"); //Se imprime: "nombre del programa(versión del programa) - Autor"
+        System.out.println("Ejercicio 2.28(ver 2.0.0) - Sergio Tarquino"); //Se imprime: "nombre del programa(versión del programa) - Autor"
     }
-
-        
 }
  

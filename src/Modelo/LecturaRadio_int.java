@@ -1,3 +1,4 @@
+package Modelo;
 import java.util.Scanner;
 public class LecturaRadio_int {
     public Numero_int leerRadio(){ //metodo leerRadio()

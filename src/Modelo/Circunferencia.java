@@ -1,3 +1,4 @@
+package Modelo;
 public class Circunferencia {
     private Numero_int c; //Se define el atributo c
 

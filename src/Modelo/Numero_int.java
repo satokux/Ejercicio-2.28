@@ -1,3 +1,5 @@
+package Modelo;
+
 public class Numero_int {
 
     private int numero;

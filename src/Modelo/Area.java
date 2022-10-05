@@ -1,3 +1,4 @@
+package Modelo;
 public class Area {
     private Numero_int a; //Se define el atributo a
 
