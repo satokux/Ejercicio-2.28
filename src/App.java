@@ -7,7 +7,7 @@ public class App {
         Circunferencia calcularCircunferencia = new Circunferencia(); //Se instancia el objeto "calcularCircunferencia" tipo Circunferencia
         Area calcularArea = new Area(); //Se instancia el objeto "calcularArea" tipo Area
         
-        System.out.print("Digite el radio de un circulo: "); //Se pide el valor de "radio" por teclado
+        vista.mostrarPedirNumero();
         
         Numero_int radio; //Se crea la variable "radio" tipo Numero_int
         double diametro; //Se crea la variable "diametro" tipo flotante
@@ -21,7 +21,7 @@ public class App {
 
         vista.mostrarOperaciones(diametro, circunferencia, area); //Llamamos a la clase "Vista" y le damos los parametros que pide
         
-        System.out.println("Ejercicio 2.28(ver 1.3.2) - Sergio Tarquino"); //Se imprime: "nombre del programa(versión del programa) - Autor"
+       vista.mostrarVersion();
 
     }
 }

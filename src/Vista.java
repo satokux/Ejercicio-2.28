@@ -10,6 +10,14 @@ DecimalFormat formato = new DecimalFormat("#.##"); //Se crea la variable "format
         System.out.println("El Area: " + formato.format(area)); //Imprime el Area
     }
 
+    public void mostrarPedirNumero(){
+        System.out.print("Digite el radio de un circulo: "); //Se pide el valor de "radio" por teclado
+    }
+
+    public void mostrarVersion(){
+        System.out.println("Ejercicio 2.28(ver 1.3.2) - Sergio Tarquino"); //Se imprime: "nombre del programa(versión del programa) - Autor"
+    }
+
         
 }
  
