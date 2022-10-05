@@ -5,6 +5,7 @@ public class App {
         LecturaRadio_int leerRadio = new LecturaRadio_int(); //Se instancia el objeto "leerRadio" tipo LecturaRadio_int
         Diametro calcularDiametro = new Diametro(); //Se instancia el objeto "calcularDiametro" tipo Diametro
         Circunferencia calcularCircunferencia = new Circunferencia(); //Se instancia el objeto "calcularCircunferencia" tipo Circunferencia
+        Area calcularArea = new Area(); //Se instancia el objeto "calcularArea" tipo Area
         
         System.out.print("Digite el radio de un circulo: "); //Se pide el valor de "radio" por teclado
         
@@ -16,11 +17,11 @@ public class App {
         radio = leerRadio.leerRadio(); //Se captura el radio mediante el metodo leerRadio()
         diametro = calcularDiametro.calcularDiametro(radio); //Se calcula el Diametro mediante el metodo calcularDiametro()
         circunferencia = calcularCircunferencia.calcularCircunferencia(radio); //Se calcula la Circunferencia mediante el metodo calcularCircunferencia()
-        area = Math.PI * Math.pow(radio.getNumero_int(), 2); //Se calcula el Area = (πr^2)
+        area = calcularArea.calcularArea(radio); //Se calcula el Area mediante el metodo calcularArea()
 
         vista.mostrarOperaciones(diametro, circunferencia, area); //Llamamos a la clase "Vista" y le damos los parametros que pide
         
-        System.out.println("Ejercicio 2.28(ver 1.3.1) - Sergio Tarquino"); //Se imprime: "nombre del programa(versión del programa) - Autor"
+        System.out.println("Ejercicio 2.28(ver 1.3.2) - Sergio Tarquino"); //Se imprime: "nombre del programa(versión del programa) - Autor"
 
     }
 }
